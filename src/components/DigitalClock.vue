@@ -35,9 +35,12 @@ export default {
       setInterval(() => {
         const date = new Date()
         this.hours = date.getHours()
-        this.minutes = date.getMinutes()
-        this.seconds = date.getSeconds()
+        this.minutes = this.checkSingleDigit(date.getMinutes())
+        this.seconds = this.checkSingleDigit(date.getSeconds())
       }, 1000)
+    },
+    checkSingleDigit (digit) {
+      return ('0' + digit).slice(-2)
     }
   },
   mounted () {
