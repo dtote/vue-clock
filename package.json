@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "one-colorpicker": "^1.0.12",
     "vue": "^2.6.11"
   },
   "devDependencies": {

@@ -17,7 +17,7 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:neeestor08/vue-clock.git main:gh-pages
-git push -f git@github.com:neeestor08/vue-clock.git master:gh-pages
+# git push -f git@github.com:dtote/vue-clock.git main:gh-pages
+git push -f git@github.com:dtote/vue-clock.git master:gh-pages
 
 cd -

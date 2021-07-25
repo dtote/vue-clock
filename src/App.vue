@@ -1,8 +1,6 @@
 <template>
 <div>
   <DigitalClock/>
-  <DigitalClock color="green"/>
-  <DigitalClock color="yellow"/>
 </div>
 </template>
 
